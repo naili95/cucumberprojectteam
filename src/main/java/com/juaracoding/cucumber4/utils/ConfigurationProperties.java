@@ -20,6 +20,9 @@ public class ConfigurationProperties {
 	@Value("${txtWelcome}")
 	private String txtWelcome;
 	
+	@Value("${txtTitleBookingPage}")
+	private String txtTitleBookingPage;
+	
 	public String getBrowser() {
 		return browser;
 	}
@@ -34,6 +37,10 @@ public class ConfigurationProperties {
 	
 	public String getTxtWelcome() {
 		return txtWelcome;
+	}
+	
+	public String getTxtTitleBookingPage() {
+		return txtTitleBookingPage;
 	}
 
 }
